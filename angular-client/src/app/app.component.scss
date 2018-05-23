@@ -1,0 +1,30 @@
+:host {
+	.content {
+		width: 900px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.mat-table /deep/ {
+		margin: 0 auto;
+		.mat-header-cell {
+			width: 200px;
+			text-align: center;
+			&:first-child {
+				text-align: left;
+			}
+		}
+		.mat-cell {
+			text-align: center;
+			&:first-child {
+				text-align: left;
+			}
+		}
+	}
+	.mat-form-field.todo-name {
+		width: 200px;
+	}
+	.create-todo-btn {
+		margin-left: 15px;
+	}
+}
